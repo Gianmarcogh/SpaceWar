@@ -12,8 +12,6 @@ public class ProjectileController : Shape, IKillable
     {
         base.Start();
         Name = "Projectile";
-
-        SetColor(0, 255, 0);
     }
 
     // Update is called once per frame

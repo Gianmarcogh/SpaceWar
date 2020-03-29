@@ -10,7 +10,6 @@ public class StopController : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.color = Color.red;
     }
 
     // Update is called once per frame

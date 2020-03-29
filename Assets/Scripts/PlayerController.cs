@@ -8,8 +8,6 @@ public class PlayerController : Shape
     protected override void Start()
     {
         base.Start();
-
-        SetColor(Color.yellow);
     }
 
     // Update is called once per frame
